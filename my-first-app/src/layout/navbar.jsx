@@ -1,16 +1,15 @@
-import React from "react";
-
-export default function Navbar() {
+const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="navbar-logo">MyApp</div>
+      <h2>MyApp</h2>
 
-      <ul className="navbar-links">
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/services">Services</a></li>
-        <li><a href="/contact">Contact</a></li>
-      </ul>
+      <div>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+      </div>
     </nav>
   );
-}
+};
+
+export default Navbar;
