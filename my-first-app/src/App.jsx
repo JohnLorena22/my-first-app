@@ -12,7 +12,17 @@ import footer from "./layout/footer";
 function App() {
   return (
     <div>
+    <navbar/>
+
+      <div className = "layout">
+      <sidebar/>
+
+      <main>
       <State />
+      </main>
+      </div>
+
+    <footer/>
     </div>
   );
 }
