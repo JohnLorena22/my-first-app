@@ -120,3 +120,29 @@ button:last-of-type {
 button:last-of-type:hover {
   background: #dc2626;
 }
+
+
+.navbar {
+  height: 65px;
+  background: #1e293b;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.navbar h2 {
+  color: white;
+  margin: 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+}
+
+.navbar a:hover {
+  color: #60a5fa;
+}
