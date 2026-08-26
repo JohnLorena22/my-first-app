@@ -44,7 +44,7 @@ function State() {
     <div>
       <h1>Mock Users</h1>
 
-      <button onClick={addUser}>Add Mock User</button>
+      <button onClick={addUser}>Add User</button>
 
       <hr />
 
