@@ -5,7 +5,7 @@ import State from "./Pages/State";
 import navbar from "./layout/navbar";
 import sidebar from "./layout/sidebar";
 import footer from "./layout/footer";
-
+import Products from "./Pages/Products";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <sidebar/>
 
       <main>
-      <layout/>
+        <Products/>
       </main>
       </div>
 
