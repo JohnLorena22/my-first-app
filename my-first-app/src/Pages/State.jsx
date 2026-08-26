@@ -99,7 +99,7 @@ function State() {
 
   return (
     <div>
-      <h1>JSONPlaceholder CRUD</h1>
+      <h1> Mock Data's </h1>
 
       {/* CREATE */}
       <form onSubmit={addPost}>

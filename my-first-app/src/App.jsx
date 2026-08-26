@@ -16,7 +16,7 @@ function App() {
       <sidebar/>
 
       <main>
-      <State />
+      <layout/>
       </main>
       </div>
 
